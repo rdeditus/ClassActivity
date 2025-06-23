@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <style>
+    body{
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      background-color: blanchedalmond;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      padding: 20px;
+      animation: colorChange 10s infinite alternate;
+    }
+    form{
+      background-color: aliceblue;
+      
+    }
+  
+    .btn1{
+      background-color: #3357ff;
+      margin-left: 130px;
+    }
+    @keyframes colorChange{
+      0%{background-color: #5f58be;}
+      25%{background-color: #ff5733;}
+      50%{background-color: #3357ff;}
+      75%{background-color: #ff33a1;}
+      100%{background-color: #ff5733;}
+    }
+  </style>
+    <header>
+        <title>Contact Form</title>
+    </header>
+    <body>
+        
+   <form>
+    <h1>
+      Contact Us
+    </h1>
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname"><br>
+    <label for="message">Message:</label><br>
+ <textarea id="message" name="message" rows="4" cols="50">
+</textarea><br>
+  <br>
+  <input type="button" value="Send Message" class="btn1">
+</form>
+<button onclick="location.href='Restaurant1.0.html'">Go Back</button>
+    </body>
+    <footer></footer>
+</html>

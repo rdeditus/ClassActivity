@@ -1,23 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewpoint" content="width=device-width, inital-scale=1.0">
     <title>Restaurant</title>
     <style>
-        body{ 
-            background-color: blanchedalmond;
-            color: #333; 
-            margin: 0;
-            padding: 0;
+        body {
+            background-color: rgb(247, 244, 240);
+            color: #333;
+            margin-top: 0;
+            margin-left: 5%;
+            padding: auto;
 
         }
-        main{ 
+
+        main {
             padding: 20px;
         }
-        h1{ 
-            background-color: lightcoral;
-            border: 1px dashed red;
+
+        h1 {
+            background-color: rgb(199, 171, 232);
+            border: 1px dashed rgb(151, 7, 161);
             border-top-left-radius: 8px;
             border-top-right-radius: 100px;
             border-bottom-left-radius: 100px;
@@ -25,8 +29,9 @@
             width: 300px;
             margin-left: 50px;
         }
-        section{
-            background-color: lightblue;
+
+        section {
+            background-color: #d8f3ef;
             border-top-left-radius: 8px;
             border-bottom-left-radius: 100px;
             border-top-right-radius: 100px;
@@ -37,41 +42,52 @@
             padding-right: 20px;
             border: 1px dotted blue;
             margin-bottom: 15px;
-            
+            width: 500px;
+            align-content: center;
 
         }
-        p{
+
+        p {
             padding-left: 50px;
 
         }
-        ul{
+
+        ul {
 
             list-style-type: none;
         }
-        h2{
+
+        h2 {
             background-color: lightgoldenrodyellow;
             border-top-right-radius: 100px;
             border-top-left-radius: 8px;
             padding: 10px;
             width: 300px;
             border: 1px dotted orangered;
-            
+
         }
-        img{
+
+        img {
             Max-width: 100px;
             border-radius: 6px;
             height: auto;
         }
-        footer{ 
+
+        footer {
             background-color: blueviolet;
             color: blanchedalmond;
             padding: 15px;
             text-align: center;
         }
-        h1{
+
+        h1 {
             padding-left: 75px;
         }
-
+        button{
+            margin-left: 200px;
+            border-radius: 100px;
+            border: 1px dashed red;
+        }
     </style>
 </head>
 
@@ -93,7 +109,7 @@
                 <li>Tomato Soup - $1</li>
             </ul>
         </section>
-          <section>
+        <section>
             <h2>Main Course</h2>
             <ul>
                 <li>Grilled Cheese - $12</li>
@@ -101,7 +117,7 @@
                 <li>Pasta - $12</li>
             </ul>
         </section>
-          <section>
+        <section>
             <h2>Desserts</h2>
             <ul>
                 <li>Cheese Cake - $12</li>
@@ -109,10 +125,16 @@
                 <li>Brownie - $1</li>
             </ul>
         </section>
-         <section>
+        <section>
             <h2>Specials</h2>
-            <img src="C:\Users\Robert\Desktop\Semester 2\CRPG-219\Github Repository\GithubRepository\GithubRepository\ClassActivity\Restaurant\download.jpeg" alt="Special">
+            <img src="C:\Users\Robert\Desktop\Semester 2\CRPG-219\Github Repository\GithubRepository\GithubRepository\ClassActivity\Restaurant\download.jpeg"
+                alt="Special">
             <p>PASTA!</p>
+        </section>
+        <section>
+            <h2>Ready to visit us?</h2>
+            <p>Click below to learn more or to contact us</p>
+            <button onclick="location.href='ContactUs.html'">Contact Us</button>
         </section>
     </main>
 
@@ -120,4 +142,5 @@
 <footer>
     Visit us at 123 street nw city | call: (123)456-7890
 </footer>
+
 </html>
